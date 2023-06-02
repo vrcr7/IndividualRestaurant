@@ -27,6 +27,8 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         imageButton1 = binding.imageButton1;
+        imageButton2 = binding.imageButton2;
+        imageButton3 = binding.imageButton3;
 
         //Intent intent2 = getIntent(); esto es solo para recibir datos
 
