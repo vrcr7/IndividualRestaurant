@@ -48,9 +48,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 ´´´
+
 Main activity 2 
 
 ´´´Bash
+
 public class MainActivity2 extends AppCompatActivity {
     private ImageButton imageButton1;
     private ImageButton imageButton2;
@@ -90,11 +92,17 @@ public class MainActivity2 extends AppCompatActivity {
         });
     }
 }
+
 ´´´
+
+
 
 Main Activity 3
 
+
 ´´´Bash
+
+
 public class MainActivity3 extends AppCompatActivity {
 
     private ActivityMain3Binding binding;
@@ -108,4 +116,6 @@ public class MainActivity3 extends AppCompatActivity {
         setContentView(binding.getRoot());
     }
 }
+
+
 ´´´
