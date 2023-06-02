@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        android:layout_width="231dp"
+        android:layout_height="43dp"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:transformPivotX="@android:dimen/thumbnail_width"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar3"
+        android:layout_width="231dp"
+        android:layout_height="43dp"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:transformPivotX="@android:dimen/thumbnail_width"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="652dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_error"
+        android:contentDescription="barra"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LUNCH"
+        android:textColor="@color/design_default_color_background"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="23dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="405dp"
+        android:layout_height="169dp"
+        android:contentDescription="comida 1"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/img_1"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="64dp"
+        tools:srcCompat="@drawable/img_1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="192dp"
+        android:layout_height="19dp"
+        android:text="Rice with Daal Godhi"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="192dp"
+        android:layout_height="19dp"
+        android:text="Rice with Daal Godhi"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="664dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="192dp"
+        android:layout_height="19dp"
+        android:text="Rice with Daal Godhi"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="231dp"
+        android:layout_height="43dp"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:transformPivotX="@android:dimen/thumbnail_width"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="389dp"
+        android:layout_height="165dp"
+        android:contentDescription="comida2"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/img_2"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="292dp"
+        tools:srcCompat="@drawable/img_2" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="393dp"
+        android:layout_height="130dp"
+        android:contentDescription="3"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/img_3"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="522dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
