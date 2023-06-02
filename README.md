@@ -18,7 +18,12 @@
 
 ![image](https://github.com/juliaigz/Android_Restaurant_app/assets/40221707/193c158f-b815-4c6a-9c33-7aab8c05e8ae)
 
+
+Main Activity
+
+
 ´´´Bash
+
 public class MainActivity extends AppCompatActivity {
 
     private Button button1;
